@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
-int main ()
+int main()
 {
-    float x =2 , sum = 0;
+    float x=2 , sum ;
     while (x<=69)
     {
-        sum = sum + 1/x;
-        x = x+1;
-    
+       sum = sum + 1/x;
+       x = x +1;
     }
     cout << sum ;
     return 0;
+
 }
